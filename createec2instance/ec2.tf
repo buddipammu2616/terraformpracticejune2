@@ -10,5 +10,6 @@ resource "aws_instance" "myec2instance" {
 
 tags = {
     "Name" = "maheshec2"
-}
+    "tag1" = "buddiec2" 
+    }
 }
